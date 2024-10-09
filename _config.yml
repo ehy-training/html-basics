@@ -4,6 +4,6 @@ title: "GitHub Pages Frontend Framework"
 description: "Ein einfaches Frontend Framework für GitHub Pages mit Jekyll"
 author: "Dein Name"
 baseurl: "" # Verwende deinen Projektpfad, z.B. "/meine-seite"
-url: "" # Deine GitHub Pages URL
+url: "https://ehy-training.github.io/html-basics/" # Deine GitHub Pages URL
 
 markdown: kramdown
