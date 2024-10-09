@@ -1,5 +1,5 @@
 /*---------------------
-Version: 0.2
+Version: 0.3
 ---------------------*/
 
 
@@ -103,7 +103,8 @@ main {
 /**-----
 Type
 -----**/
-
+nav.main-nav,
+nav.main-nav a,
 header,
 header a,
 footer,
