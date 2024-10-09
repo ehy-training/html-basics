@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-    <script defer src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ /html-basics  }}/assets/css/styles.css">
+    <script defer src="{{ /html-basics }}/assets/js/script.js"></script>
 </head>
 <body>
     <header>
         <h1>{{ site.title }}</h1>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
+                <li><a href="{{ /html-basics }}/index">Startseite</a></li>
                 <li><a href="{{ '/about/' | relative_url }}">Über</a></li>
                 <li><a href="{{ '/contact/' | relative_url }}">Kontakt</a></li>
             </ul>
