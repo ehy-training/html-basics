@@ -17,6 +17,10 @@ nav a {
     text-decoration: none;
 }
 
+nav ul {
+    list-style: none;
+}
+
 
 
 /*---------------------
@@ -25,27 +29,25 @@ LAYOUT
 
 
 
-header {
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 8px;
 }
 
 nav ul {
-    list-style: none;
-display: flex;
-flex-wrap: wrap;
-grid-gap: 1em;
+
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1em;
 }
 
-nav ul li {
+nav ul li {}
 
-}
+nav ul li a {}
 
-nav ul li a {
-
-}
-
-footer {
-
+main {
+    min-height: 70vh;
 }
 
 /*---------------------
@@ -70,13 +72,13 @@ Color Vars
 :root {
     --hue: 200;
 
-    --color-sub-white: hsl(var(--hue),5%,97%);
-    --color-grey-light: hsl(var(--hue),13%,89%);
-    --color-grey-mid-light: hsl(var(--hue),21%,76%);
-    --color-grey-mid: hsl(var(--hue),21%,55%);
-    --color-grey-mid-dark: hsl(var(--hue),34%,34%);
-    --color-grey-dark: hsl(var(--hue),42%,21%);
-    --color-sub-black: hsl(var(--hue),42%,8%);
+    --color-sub-white: hsl(var(--hue), 5%, 97%);
+    --color-grey-light: hsl(var(--hue), 13%, 89%);
+    --color-grey-mid-light: hsl(var(--hue), 21%, 76%);
+    --color-grey-mid: hsl(var(--hue), 21%, 55%);
+    --color-grey-mid-dark: hsl(var(--hue), 34%, 34%);
+    --color-grey-dark: hsl(var(--hue), 42%, 21%);
+    --color-sub-black: hsl(var(--hue), 42%, 8%);
 }
 
 
