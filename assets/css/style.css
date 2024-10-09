@@ -1,5 +1,5 @@
 /*---------------------
-Version: 0.2
+Version: 0.3
 ---------------------*/
 
 
@@ -13,7 +13,13 @@ RESET
     box-sizing: border-box;
 }
 
+nav a {
+    text-decoration: none;
+}
 
+nav ul {
+    list-style: none;
+}
 
 
 
@@ -23,48 +29,87 @@ LAYOUT
 
 
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 8px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1em;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
+nav ul li {}
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+nav ul li a {}
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+main {
+    min-height: 70vh;
 }
 
 /*---------------------
 TYPOGRAPHY
 ---------------------*/
 
+body {
+    font-family: 'Inter';
+    font-weight: 300;
+    line-height: 1.5;
+}
+
 
 /*---------------------
 COLOR & STYLE
 ---------------------*/
 
+/**-----
+Color Vars
+-----**/
+
+:root {
+    --hue: 200;
+
+    --color-sub-white: hsl(var(--hue), 5%, 97%);
+    --color-grey-light: hsl(var(--hue), 13%, 89%);
+    --color-grey-mid-light: hsl(var(--hue), 21%, 76%);
+    --color-grey-mid: hsl(var(--hue), 21%, 55%);
+    --color-grey-mid-dark: hsl(var(--hue), 34%, 34%);
+    --color-grey-dark: hsl(var(--hue), 42%, 21%);
+    --color-sub-black: hsl(var(--hue), 42%, 8%);
+}
+
+
+
+/**-----
+Backgrounds
+-----**/
+
 
 body {
-    background: hsl(200,97%,55%);
+    background: var(--color-grey-dark);
+}
+
+header {
+    background: var(--color-grey-mid);
+}
+
+main {
+    background: var(--color-sub-white);
+}
+
+/**-----
+Type
+-----**/
+nav.main-nav,
+nav.main-nav a,
+header,
+header a,
+footer,
+footer a {
+    color: var(--color-sub-white)
 }
 
 
