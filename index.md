@@ -3,7 +3,7 @@ layout: default
 title: "Startseite"
 ---
 
-# EInführung in HTML5, CSS3 und JavaScript (mit AJAX)
+# Einführung in HTML5, CSS3 und JavaScript (mit AJAX)
 
 
 
