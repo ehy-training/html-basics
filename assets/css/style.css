@@ -46,11 +46,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+
 }
 
 /*---------------------
@@ -62,9 +58,50 @@ TYPOGRAPHY
 COLOR & STYLE
 ---------------------*/
 
+/**-----
+Color Vars
+-----**/
+
+:root {
+    --hue: 200;
+
+    --color-sub-white: hsl(var(--hue),5%,97%);
+    --color-grey-light: hsl(var(--hue),13%,89%);
+    --color-grey-mid-light: hsl(var(--hue),21%,76%);
+    --color-grey-mid: hsl(var(--hue),21%,55%);
+    --color-grey-mid-dark: hsl(var(--hue),34%,34%);
+    --color-grey-dark: hsl(var(--hue),42%,21%);
+    --color-sub-black: hsl(var(--hue),42%,8%);
+}
+
+
+
+/**-----
+Backgrounds
+-----**/
+
 
 body {
-    background: hsl(200,97%,55%);
+    background: var(--color-grey-dark);
+}
+
+header {
+    background: var(--color-grey-mid);
+}
+
+main {
+    background: var(--color-sub-white);
+}
+
+/**-----
+Type
+-----**/
+
+header,
+header a,
+footer,
+footer a {
+    color: var(--color-sub-white)
 }
 
 
