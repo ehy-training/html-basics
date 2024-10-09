@@ -53,6 +53,12 @@ footer {
 TYPOGRAPHY
 ---------------------*/
 
+body {
+    font-family: 'Inter';
+    font-weight: 300;
+    line-height: 1.5;
+}
+
 
 /*---------------------
 COLOR & STYLE
