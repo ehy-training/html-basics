@@ -1,9 +1,9 @@
 # _config.yml
 
-title: "GitHub Pages Frontend Framework"
-description: "Ein einfaches Frontend Framework für GitHub Pages mit Jekyll"
-author: "Dein Name"
-baseurl: "" # Verwende deinen Projektpfad, z.B. "/meine-seite"
+title: "HTML und CSS Grundlagen"
+description: "Eine einfache Website mit den wichtigsten Grundlagen zum Einstieg in das Web Development"
+author: "Enno Hyttrek"
+baseurl: "/html-basics" # Verwende deinen Projektpfad, z.B. "/meine-seite"
 url: "https://ehy-training.github.io/html-basics/" # Deine GitHub Pages URL
 
 markdown: kramdown
