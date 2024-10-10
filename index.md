@@ -8,3 +8,17 @@ title: "HTML5, CSS3 und JS (mit AJAX)"
 
 
 Willkommen!
+
+`<html>`
+
+<head>
+  
+</head>
+
+`<body>`
+
+
+
+</body>
+
+`</html>`
